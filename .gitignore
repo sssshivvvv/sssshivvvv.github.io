@@ -1,0 +1,3 @@
+scripts/.arxiv_tmp/
+*.DS_Store
+__pycache__/

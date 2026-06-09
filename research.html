@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Shivam Singh</title>
+  <meta name="description" content="Research publications and projects by Shivam Singh — embodied AI, video understanding, and task planning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Shivam Singh</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="interests.html">Interests</a></li>
+    </ul>
+    <div class="nav-social">
+      <a href="https://scholar.google.com/citations?user=Wcn55lQAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+      <a href="https://www.linkedin.com/in/sssshivvvv/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/sssshivvvv" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:shivamsingh3458@gmail.com">Email</a>
+      <a href="assets/cv/Shivam_Singh_CV.pdf" target="_blank">CV</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Research</h1>
+    <p>Publications and ongoing projects in embodied AI, video understanding, and task planning.</p>
+  </div>
+</div>
+
+<section class="section" style="padding-top:0;">
+  <div class="container">
+
+    <!-- Pause and Think -->
+    <article class="research-card">
+      <img src="assets/img/research/pause-and-think-teaser.jpg" alt="Pause and Think teaser figure" class="research-teaser" loading="lazy">
+      <div class="research-body">
+        <span class="venue-badge badge-arxiv">arXiv Preprint 2026</span>
+        <h2 class="research-title"><a href="https://arxiv.org/abs/2606.00616" target="_blank" rel="noopener">Pause and Think: A Dataset and Benchmark for Video-Grounded Assistive Action Suggestion</a></h2>
+        <p class="research-authors"><strong>Shivam Singh</strong>, S Majumder, P Prabhanjan, Z Liu, E Barsoum</p>
+        <p class="research-abstract">Recent Vision-Language Models struggle with grounded reasoning, temporal consistency, and context-aware planning in videos. We introduce Pause-and-Think-T, a reasoning-centric training dataset that encourages models to pause, reason over visual evidence, and produce concise, actionable responses. A compact 4B-parameter model fine-tuned on our dataset achieves 58.0% accuracy at 59× fewer parameters than Qwen3-VL-235B, matching GPT-5.2 on scene understanding while remaining suitable for real-time edge deployment on AMD Ryzen AI hardware.</p>
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2606.00616" class="link-pill" target="_blank" rel="noopener">Paper (PDF)</a>
+          <a href="https://arxiv.org/pdf/2606.00616" class="link-pill" target="_blank" rel="noopener">arXiv</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Spatial Video Understanding -->
+    <article class="research-card">
+      <img src="assets/img/research/spatial-video-pipeline.jpg" alt="Spatial video understanding pipeline" class="research-teaser" loading="lazy">
+      <div class="research-body">
+        <span class="venue-badge badge-ongoing">Ongoing — 2026</span>
+        <h2 class="research-title">Spatial Video Understanding from Raw Monocular RGB Videos</h2>
+        <p class="research-authors"><strong>Shivam Singh</strong> (AMD India)</p>
+        <p class="research-abstract">We are building a pipeline that performs spatial understanding, object tracking, and goal planning directly from raw, real-world monocular RGB videos. The system combines Depth-Anything-3, YOLO-World, and VLMs to take a raw video as input and produce a 3D map of all object locations along with the user's pose. Using this pipeline, we generate a clean and robust QA dataset for object tracking, spatial understanding, and planning. We are also training an end-to-end model that, given a raw monocular RGB video, reasons over the spatial scene temporally using built-in memory and 3D understanding to answer user questions in natural language.</p>
+        <div class="research-links">
+          <span class="link-pill" style="opacity:0.6;cursor:default;">Paper building in progress</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- Anticipate, Adapt, Act -->
+    <article class="research-card">
+      <img src="assets/img/research/anticipate-adapt-act-teaser.jpg" alt="Anticipate Adapt Act teaser figure" class="research-teaser" loading="lazy">
+      <div class="research-body">
+        <span class="venue-badge badge-ecmr">ECMR 2025</span>
+        <h2 class="research-title"><a href="https://arxiv.org/abs/2602.19518" target="_blank" rel="noopener">Anticipate, Adapt, Act: A Hybrid Framework for Task Planning</a></h2>
+        <p class="research-authors">N Dash, A Kaura, <strong>Shivam Singh</strong>, R Singh, S Banerjee, M Sridharan, M Krishna</p>
+        <p class="research-abstract">Anticipating and adapting to failures is a key capability robots need to collaborate effectively with humans in complex domains. We present a hybrid framework that integrates the generic prediction capabilities of an LLM with the probabilistic sequential decision-making capability of Relational Dynamic Influence Diagram Language. For any given task, the robot reasons about the task and the capabilities of the human attempting to complete it, predicts potential failures, and executes actions to prevent or recover from them.</p>
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2602.19518" class="link-pill" target="_blank" rel="noopener">Paper (PDF)</a>
+          <a href="https://arxiv.org/pdf/2602.19518" class="link-pill" target="_blank" rel="noopener">arXiv</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- AdaptBot -->
+    <article class="research-card">
+      <img src="assets/img/research/adaptbot-teaser.jpg" alt="AdaptBot teaser figure" class="research-teaser" loading="lazy">
+      <div class="research-body">
+        <span class="venue-badge badge-icra">ICRA 2025</span>
+        <h2 class="research-title"><a href="https://arxiv.org/abs/2502.02067" target="_blank" rel="noopener">AdaptBot: Combining LLM with Knowledge Graphs and Human Input for Generic-to-Specific Task Decomposition and Knowledge Refinement</a></h2>
+        <p class="research-authors"><strong>Shivam Singh</strong>, K Swaminathan, N Dash, R Singh, S Banerjee, M Sridharan, M Krishna</p>
+        <p class="research-abstract">We present AdaptBot, a framework combining Large Language Models, Knowledge Graphs, and Human-in-the-Loop approaches to enable embodied agents to handle unseen tasks and adapt to new scenarios. The system decomposes generic tasks into specific executable actions while refining domain knowledge through human feedback, bridging the gap between high-level reasoning and grounded task execution in household environments.</p>
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2502.02067" class="link-pill" target="_blank" rel="noopener">Paper (PDF)</a>
+          <a href="https://sssshivvvv.github.io/adaptbot/" class="link-pill" target="_blank" rel="noopener">Project Page</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Anticipate & Act -->
+    <article class="research-card">
+      <img src="assets/img/research/anticipate-and-act-teaser.jpg" alt="Anticipate and Act teaser figure" class="research-teaser" loading="lazy">
+      <div class="research-body">
+        <span class="venue-badge badge-icra">ICRA 2024</span>
+        <h2 class="research-title"><a href="https://arxiv.org/abs/2502.02066" target="_blank" rel="noopener">Anticipate &amp; Act: Integrating LLMs and Classical Planning for Efficient Task Execution in Household Environments</a></h2>
+        <p class="research-authors">R Arora*, <strong>Shivam Singh*</strong>, K Swaminathan, A Datta, S Banerjee, B Bhowmick, KM Jatavallabhula, M Sridharan, M Krishna</p>
+        <p class="research-abstract">We present an intelligent household agent that learns task execution patterns by extracting user behavior and preferences using Large Language Models and designing task and action representations in Planning Domain Definition Language (PDDL). By integrating LLM-based task anticipation with classical planning, the system enables efficient task execution in household environments.</p>
+        <div class="research-links">
+          <a href="https://arxiv.org/abs/2502.02066" class="link-pill" target="_blank" rel="noopener">Paper (PDF)</a>
+          <a href="https://raraghavarora.github.io/ahsoka/" class="link-pill" target="_blank" rel="noopener">Project Page</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Workshops -->
+    <div class="section-header" style="margin-top:3rem;"><h2>Workshops</h2></div>
+
+    <div class="workshop-card">
+      <span class="venue-badge badge-workshop">ICRA 2024 Workshop</span>
+      <h3><a href="https://arxiv.org/pdf/2404.03587" target="_blank" rel="noopener">DaTAPlan: Data-driven Task Anticipation and Knowledge-driven Planning for Human-robot Collaboration</a></h3>
+      <p><strong>Shivam Singh*</strong>, K Swaminathan*, R Arora*, R Singh, A Datta, D Das, S Banerjee, M Sridharan, M Krishna — Cooking Robotics Workshop, Yokohama.</p>
+    </div>
+
+    <div class="workshop-card">
+      <span class="venue-badge badge-workshop">RSS 2024 Workshop</span>
+      <h3><a href="https://openreview.net/forum?id=XmInDYtUPa" target="_blank" rel="noopener">Anticipate &amp; Collab: Data-driven Task Anticipation and Knowledge-driven Planning for Human-robot Collaboration</a></h3>
+      <p><strong>Shivam Singh*</strong>, K Swaminathan*, R Arora*, D Das, S Banerjee, M Sridharan, M Krishna — Task Specification for General-Purpose Intelligent Robots, Delft.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="https://scholar.google.com/citations?user=Wcn55lQAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://www.linkedin.com/in/sssshivvvv/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/sssshivvvv" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:shivamsingh3458@gmail.com">Email</a>
+      <a href="assets/cv/Shivam_Singh_CV.pdf" target="_blank">CV</a>
+    </div>
+    <p>&copy; 2026 Shivam Singh</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

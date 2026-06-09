@@ -1,0 +1,1 @@
+We present an intelligent household agent that learns task execution patterns by extracting user behavior and preferences using Large Language Models and designing task and action representations in Planning Domain Definition Language (PDDL). By integrating LLM-based task anticipation with classical planning, the system enables efficient task execution in household environments.
