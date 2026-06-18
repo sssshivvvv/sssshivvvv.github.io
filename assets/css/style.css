@@ -373,6 +373,7 @@ h3 { font-size: 1.25rem; }
 
 .workshop-card h3 { font-size: 1.05rem; margin-bottom: 0.4rem; }
 .workshop-card p { font-size: 0.9rem; color: var(--ink-soft); }
+.workshop-card .research-links { margin-top: 0.75rem; }
 
 /* ---- Interests landing ---- */
 .interest-cards {
